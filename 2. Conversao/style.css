@@ -1,0 +1,139 @@
+/*importar a novas fontes do google fontes*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/*Colocar tudo em caixa*/
+* {
+    box-sizing: border-box;
+}
+
+/*tratamento do body e do container superior, logos, imagens superiores*/
+body {
+    font-family: "Roboto Mono", monospace;
+    min-height: 400px;
+    background-color: #000000;
+    background-size: 100vh;
+        background-repeat: no-repeat;
+    
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 25 0 10px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+  }
+  
+  .page-background-img{
+    
+    position: absolute;
+    size: auto;
+    size:auto;
+    opacity: 0.3;
+    top: 250px;
+    left: 390px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 30px;
+    right: 40px;
+  }
+   
+  h2 {
+    color: #ffffff;
+    font-size: 70px;
+  }
+  
+  h1 {
+    color: #ffffff;
+    font-size: 100px;
+    font-family: 'Shadows Into Light';font-size: 100px;
+  }
+
+  /*Efeito slide sobre o título da página */
+  .efeito {
+    width: 300px;
+    height: 150px;
+    background: black;
+    margin-top: 80px;
+    position: absolute;
+    animation-name: mymove;
+    animation-duration: 5s;
+  }
+  
+  @keyframes mymove {
+    from {left: 50px;}
+    to {left: 1000px;}
+    
+  }
+
+/*Flex Box com as imagens e efeito sanfona do hover*/
+  .flex-container {
+    width: 80%;
+    height: 200px;
+    padding-left: 20%;
+    /* create the flex container */
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    position: center;
+  }
+
+  h3{
+    color: #ffffff;
+    font-size: 20px;
+  }
+
+  .flex {
+    flex: 1;
+    border-radius: 70px 10px;
+    background-size:cover;
+    border-style: groove;
+
+  }
+  .hover:hover {
+    flex: 4;
+    transition: 0.8s ease-in;
+  }
+
+ 
+  .red {
+    background-image: url(https://images.unsplash.com/photo-1591033594798-33227a05780d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y3VycmVuY3l8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60);
+    }
+
+  .blue {
+    background-image: url(https://media.istockphoto.com/photos/glowing-sun-on-orange-sky-picture-id1257088461?b=1&k=20&m=1257088461&s=170667a&w=0&h=FSiryAD8IrzBXvSlECm40TlH1IN36ww8bofxoIg49BU=);
+  }
+
+  .green {
+    background-image: url(https://images.unsplash.com/photo-1620308544998-02bdb5bb8a5c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8cmFjZSUyMGNhcnxlbnwwfDB8MHx8&auto=format&fit=crop&w=600&q=60);
+  }
+
+
+  .orange { 
+    background-image: url(https://images.unsplash.com/photo-1501516069922-a9982bd6f3bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bWVhc3VyZXN8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60);
+  }
+  
+  a {
+    text-decoration: none;
+}

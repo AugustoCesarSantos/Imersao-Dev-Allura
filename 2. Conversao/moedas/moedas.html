@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/moedas/moedasstyle.css">
+    <link href='https://fonts.googleapis.com/css?family=Shadows Into Light' rel='stylesheet'>
+    <title>Conversor de Moedas</title>
+</head>
+<body>
+    <div class="container">
+
+        <a href="/index.html"><h4 class="page-index">Pagina Principal</h4></a>
+
+        <h1 class="page-title">
+            Conversor de Moedas
+        </h1>
+
+        <p class="page-subtitle">
+          O que voce gostaria de converter hoje?
+        </p>
+
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+
+        <div class="page-campos">
+        
+            <input placeholder=" Valor" type="number" id="valor" size="2" step="0.1"  cellspacing="10" /><br>
+        
+            <select id="country" placeholder="Select" required><br>
+                <optgroup label="Moedas">
+                    <option value="BRL" selected>Brasil, REAL (BRL)</option>
+                    <option value="USD">Estados Unidos da America, DOLAR (USD)</option>
+                    <option value="EUR">Euro, EURO (EUR)</option>
+                    <option value="GBP">Reino Unido, LIBRA (GBP)</option>
+                    <option value="ARS">Argentina, PESO (ARS)</option>
+                    <option value="CNY">China, IUAN (CNY)</option>
+                    <option value="JPY">Japan, IENE (JPY)</option>                   
+                </optgroup>
+                <br>
+                <optgroup label="Criptomoedas">
+                    <option value="BTC">Bitcoin (BTC)</option>
+                    <option value="ETH">Etherium (ETH)</option>
+                    <option value="ADA">Cardano (ADA)</option>
+                </optgroup>    
+            </select>   
+            <br>
+
+            <select id="country2" placeholder="Select" required><br>
+                <optgroup label="Moedas">
+                    <option value="BRL" selected>Brasil, REAL (BRL)</option>
+                    <option value="USD">Estados Unidos da America, DOLAR (USD)</option>
+                    <option value="EUR">Euro, EURO (EUR)</option>
+                    <option value="GBP">Reino Unido, LIBRA (GBP)</option>
+                    <option value="ARS">Argentina, PESO (ARS)</option>
+                    <option value="CNY">China, IUAN (CNY)</option>
+                    <option value="JPY">Japan, IENE (JPY)</option>                   
+                </optgroup>
+                <br>
+                <optgroup label="Criptomoedas">
+                    <option value="BTC">Bitcoin (BTC)</option>
+                    <option value="ETH">Etherium (ETH)</option>
+                </optgroup>
+            </select>           
+        </div>
+        
+        <button id="button-convert" type="submit"  onclick="Converter()"><strong>Converter</strong></button>
+        <h3 id="valorConvertido"></h3> 
+
+        <div id="messagem">
+            <p>Faça conversões entre as principais Moedas e Criptomoedas.</p>
+            <p>* Última atualização: 14/09/2022 01:16 UTC-3</p> 
+        </div>
+        
+        <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+      </div>
+      
+
+    <script src="/moedas/moedasscript.js"></script>
+</body>
+</html>
