@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title> Imersão Dev Alura - Aula 01</title>
+</head>
+  
+<body>
+        
+    <div class="container">
+      <h1 class="page-title">
+      Calculadora de média</h1>
+      <p class="page-subtitle">
+      Descubra qual a sua média de nota de todas as provas!
+      </p>
+              
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+      
+    <form>
+      <br><br>
+      <label> Seu nome:</label>
+      <input type="text" name="name" required="" id="name"><br><br>
+      <label> Nota do Primeiro Bimestre: </label>
+      <input type = number min="0" max="10" step="0.1"  required="" id="notaPrimeiroBimestre"><br><br>
+      <label> Nota do Segundo Bimestre: </label>
+      <input type = number min="0" max="10" step="0.1" required="" id="notaSegundoBimestre"><br><br>
+      <label> Nota do Terceiro Bimestre: </label>
+      <input type = number min="0" max="10" step="0.1" required="" id="notaTerceiroBimestre"><br><br>
+      <label> Nota do Quarto Bimestre: </label>
+      <input type = number min="0" max="10" step="0.1" required="" id="notaQuartoBimestre"> <br><br>
+    </form>  
+    <center>
+      <button onclick="calculoMedia()" type="submit" name="action" value="Submit" id="button"  >Calcular Nota</button>  
+      <button onclick="notaFinal()" type="submit" name="action" value="Submit" id="button2"  >Exibir Resultado</button>     
+    </center>
+      <br>
+      <img src="https://caelum-online-public.s3.amazonaws.com/imersao-dev-3/bg.png" alt="" class="background-image">
+      
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+    
+    <script src="index.js"></script>
+
+  </body>
+</html>
