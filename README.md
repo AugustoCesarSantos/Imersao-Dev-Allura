@@ -1,6 +1,7 @@
-# Imersao-Dev-Allura
-Imersão Dev Allura 2022 - focus JS
+# Imersao-Dev-Alura
+Imersão Dev Alura 2022 - Foco Javascript 
 
-Exercicios em Javascript 
+Free Bootcamp - 5 dias
+10 - Aulas e Exercicios em Javascript 
 
 
