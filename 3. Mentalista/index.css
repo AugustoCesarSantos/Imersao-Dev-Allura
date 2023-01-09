@@ -1,0 +1,75 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    min-height: 600px;
+    background-image: url("https://media.istockphoto.com/id/1065864100/photo/mysterious-fortune-teller-gesturing-at-crystal-ball.jpg?s=612x612&w=0&k=20&c=-G2MetMSnz7kHIKMNeBFoNKvEADcFBWj1PClp_ATdJM=");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 16px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  @media (max-height: 500px) {
+    body {
+      min-height: 800px;
+    }
+  }
+  
+  input {
+    margin: 4px;
+    padding: 6px;
+    border-radius: 5px;
+  }
+  
+  button {
+    margin-top: 12px;
+    padding: 4px 8px;
+    border-radius: 13px;
+    background: #ffffff;
+    margin-top: 2%;
+    background-color: goldenrod;
+    font-style: bold;
+    font-size: 18px;
+    font-family: "Roboto Mono", monospace;
+    width: 80px;
+    height: 40px;
+          
+  }
+  
+  .resultado {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 16px;
+  }
+  .dica {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 17px;
+  }
+  
